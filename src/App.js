@@ -64,10 +64,10 @@ function App() {
             <Routes>
               <Route path='/' element={<CampsiteDirectoryPage />} />
               <Route path='contact' element={<ContactPage />} />
-              <Route path='directory' element={<CampsiteDirectoryPage />} />
+              
               <Route path='about' element={<AboutPage />} />
               <Route 
-                path='directory/:campsiteId'
+                path='/:campsiteId'
                 element={<CampsiteDetailPage />}
               />
             </Routes>
