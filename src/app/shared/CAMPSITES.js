@@ -2,42 +2,46 @@ import reactLakeImg from '../assets/img/react-lake.jpg';
 import chromeRiverImg from '../assets/img/chrome-river.jpg';
 import breadCrumbImg from '../assets/img/breadcrumb-trail.jpg';
 import reduxWoodsImg from '../assets/img/redux-woods.jpg';
+import millionaire from '../assets/img/million.png';
+import imposter from '../assets/img/imposter.jpg';
+import info_page from '../assets/img/info_page.jpg';
+import python_milly from '../assets/img/python_milly.jpg';
 
 export const CAMPSITES = [
     {
         id: 0,
-        name: 'React Lake Campground',
-        image: reactLakeImg,
+        name: 'Millionaire React',
+        image: millionaire,
         elevation: 1233,
         featured: false,
         description:
-            'Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.'
+            'Who Wants To Be a Millionaire Build with React JS'
     },
     {
         id: 1,
-        name: 'Chrome River Campground ',
-        image: chromeRiverImg,
+        name: 'Find the Imposter Html/Css/Javascript',
+        image: imposter,
         elevation: 877,
         featured: false,
         description:
-            'Spend a few sunny days and starry nights beneath a canopy of old-growth firs at this enchanting spot by the Chrome River.'
+            'Find The Imposter Build with Html/Css/Javascript'
     },
     {
         id: 2,
-        name: 'Breadcrumb Trail Campground',
-        image: breadCrumbImg,
+        name: 'Bootstrap/JQuery Information Page',
+        image: info_page,
         elevation: 2901,
         featured: false,
         description:
-            'Let NuCamp be your guide to this off-the-beaten-path, hike-in-only campground.'
+            'Information Page build with Bootstrap and JQuery'
     },
     {
         id: 3,
-        name: 'Redux Woods Campground',
-        image: reduxWoodsImg,
+        name: 'Python Millionaire Game',
+        image: python_milly,
         elevation: 42,
         featured: true,
         description:
-            "You'll never want to leave this hidden gem, deep within the lush Redux Woods."
+            "Millionaire Python Cli Version"
     }
 ];

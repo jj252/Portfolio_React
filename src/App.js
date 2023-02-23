@@ -59,23 +59,10 @@ function App() {
   },[name]);
 
   return (
-    <>
-    <div ref={divEl} onClick={() => test1(true)} className="App">
-            <Button onclick={() => setName('Marcus')} style={{color:'blue', backgroundColor:'red'}} >This is my New button</Button>
-            <Button onClick={() => x+=2} style={basicBtn} >This is my New button</Button>
-            
-            <Button className='primary' color="info" >This is my New button</Button>
-            <CreatedElement person={{ name: {name}, imageId: '1bX5QH6'}} test={test2({name})} testx={name}  />
-            <CreatedElement2 props={name}  />
-            <CreatedElement2 props={name}  />
-            <New_Button buttonName='Jeremys Button'/>
-            </div> 
-            <Button className='primary' color="info" onClick={() => setName('Jade') }>This is my New button</Button>
-            
-            <New_Button2 />
+            <>
             <Header />
             <Routes>
-              <Route path='/' element={<HomePage />} />
+              <Route path='/' element={<CampsiteDirectoryPage />} />
               <Route path='contact' element={<ContactPage />} />
               <Route path='directory' element={<CampsiteDirectoryPage />} />
               <Route path='about' element={<AboutPage />} />
@@ -84,10 +71,9 @@ function App() {
                 element={<CampsiteDetailPage />}
               />
             </Routes>
-            <My_Form />
+            
             <Footer />
-        
-        </>
+            </>
     
   )
 }
