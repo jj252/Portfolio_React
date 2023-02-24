@@ -14,15 +14,18 @@ export const partnersReducer = partnersSlice.reducer;
 
 export const selectAllPartners = (state) =>{
     //return state.partners.partnersArray;
-    return state.partners.partnersArray.filter((partner) => partner.id < 3);
+    return state.partners.partnersArray.filter((partner) => partner.id <= 3);
 }
 
 export const selectSpecificPartners = (state) =>{
-    return state.partners.partnersArray.filter((partner) => partner.id > 3 && partner.id <7);
+    return state.partners.partnersArray.filter((partner) => partner.id > 3 && partner.id <= 7);
 }
 
 export const selectSpecificPartners2 = (state) =>{
-    return state.partners.partnersArray.filter((partner) => partner.id > 7 && partner.id <11);
+    return state.partners.partnersArray.filter((partner) => partner.id > 7 && partner.id <= 11);
+}
+export const selectSpecificPartners3 = (state) =>{
+    return state.partners.partnersArray.filter((partner) => partner.id > 11 && partner.id <= 15);
 }
 
 export const selectFeaturedPartner = (state) =>{

@@ -13,6 +13,7 @@ import skills_8 from '../assets/img/skills_8.jpg';
 import skills_9 from '../assets/img/skills_9.jpg';
 import skills_10 from '../assets/img/skills_10.jpg';
 import skills_11 from '../assets/img/skills_11.jpg';
+import skills_12 from '../assets/img/skills_12.jpg';
 
 export const PARTNERS = [
     {
@@ -73,11 +74,11 @@ export const PARTNERS = [
     },
     {
         id: 7,
-        name: 'Python and Django',
+        name: 'VMware',
         image: skills_4,
         featured: true,
         description:
-            'Python and Django Skills'
+            'VMware Skills'
     },
     {
         id: 8,
@@ -85,7 +86,7 @@ export const PARTNERS = [
         image: skills_5,
         featured: false,
         description:
-            "Python and Django"
+            "Python and Django Skills"
     },
     {
         id: 9,
@@ -105,35 +106,44 @@ export const PARTNERS = [
     },
     {
         id: 11,
-        name: 'Node JS',
+        name: 'React and Redux',
         image: skills_8,
         featured: true,
         description:
-            'Node JS Skills'
+            'React and Redux Skills'
     }
     ,
     {
         id: 12,
-        name: 'Git',
+        name: 'Html/Javascript/Css',
         image: skills_9,
         featured: false,
         description:
-            'Git Skills'
+            'Html/Javascript/Css Skills'
     },
     {
         id: 13,
-        name: 'Mongo DB',
+        name: 'TCP/IP',
         image: skills_10,
         featured: false,
         description:
-            'Mongo DB Skills'
+            'TCP/IP Skills'
     },
     {
         id: 14,
-        name: 'Node JS',
+        name: 'Adobe Audition',
         image: skills_11,
         featured: true,
         description:
-            'Node JS Skills'
+            'Adobe Audition Skills'
+    }
+    ,
+    {
+        id: 15,
+        name: 'DevOps',
+        image: skills_12,
+        featured: true,
+        description:
+            'DevOps Skills'
     }
 ];
