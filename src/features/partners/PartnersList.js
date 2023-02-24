@@ -13,7 +13,7 @@ const PartnersList = () => {
     const partners4 = useSelector(selectSpecificPartners3);
     return(
         <>
-        <Col className='mt-4 col-3'>
+        <Col className='mt-4  col-3'>
             {partners.map((partner)=>{
                 return(
                     
@@ -35,7 +35,7 @@ const PartnersList = () => {
             )
         })}
         </Col>
-        <Col className='mt-4 col-3'>
+        <Col className='mt-4  col-3'>
         {partners3.map((partner)=>{
             return(
                 
@@ -46,7 +46,7 @@ const PartnersList = () => {
             )
         })}
         </Col>
-        <Col className='mt-4 col-3'>
+        <Col className='mt-4  col-3'>
         {partners4.map((partner)=>{
             return(
                 

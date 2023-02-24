@@ -17,13 +17,14 @@ const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     
     return(
+       
+    
     <Navbar color='black' sticky='top' expand='md'>
     
          <NavbarBrand className='ms-5' href='/'>
-             
-             <h1 className='mt-1'>Jeremy Jeremiah Portfolio</h1> 
+             <h1 className='mt-1'>Jeremy Jeremiah's Portfolio</h1> 
          </NavbarBrand>
-         <NavbarToggler className={style.NavbarToggler} onClick={() => setMenuOpen(!menuOpen)} />
+         <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
          <Collapse isOpen={menuOpen} navbar>
             
             <Nav className="ms-auto" navbar>
@@ -35,7 +36,7 @@ const Header = () => {
                 </NavItem>
                 <NavItem>
                     <NavLink className='nav-link' to='/education'>
-                     Education
+                         Education
                     </NavLink>
                 </NavItem>
                 <NavItem>
@@ -51,7 +52,11 @@ const Header = () => {
                 <UserLoginForm />
             </Nav>
         </Collapse>
- </Navbar>)
+ </Navbar>
+ 
+ 
+ )
+ 
 }
 
 export default Header;
