@@ -14,6 +14,7 @@ import {New_Button} from './components/Misc';
 import {New_Button2} from './components/Misc';
 import  My_Form  from './components/My_Form';
 import CampsiteDirectoryPage from './pages/CampsitesDirectoryPage';
+import EducationDirectoryPage from './pages/EducationDirectoryPage';
 import {Routes, Route} from  'react-router-dom';
 import ContactPage from './pages/ContactPage';
 import HomePage from './pages/HomePage';
@@ -64,7 +65,7 @@ function App() {
             <Routes>
               <Route path='/' element={<CampsiteDirectoryPage />} />
               <Route path='contact' element={<ContactPage />} />
-              
+              <Route path='education' element={<EducationDirectoryPage />} />
               <Route path='about' element={<AboutPage />} />
               <Route 
                 path='/:campsiteId'
