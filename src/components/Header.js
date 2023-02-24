@@ -11,12 +11,15 @@ import {
 } from 'reactstrap';
 import { NavLink } from "react-router-dom";
 import UserLoginForm from '../features/user/UserLoginForm';
+import style from '../app/shared/StudentList.module.css';
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     
     return(
-    <Navbar light color='primary' sticky='top' expand='md'>
+       
+    
+    <Navbar color='black' sticky='top' expand='md'>
     
          <NavbarBrand className='ms-5' href='/'>
              <h1 className='mt-1'>Jeremy Jeremiah's Portfolio</h1> 
@@ -49,7 +52,11 @@ const Header = () => {
                 <UserLoginForm />
             </Nav>
         </Collapse>
- </Navbar>)
+ </Navbar>
+ 
+ 
+ )
+ 
 }
 
 export default Header;
