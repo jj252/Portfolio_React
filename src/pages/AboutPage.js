@@ -18,8 +18,8 @@ const AboutPage = () => {
       });
 
     return(
-        <Container>
-            <SubHeader current='About Us'/>
+        <Container style={animatedStyle}>
+            <SubHeader current='Skills'/>
             
             <Row className='row-content'>
                 <Col xs='12'>

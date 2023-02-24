@@ -5,7 +5,7 @@ import { selectEducationById } from '../features/campsites/educationSlice';
 import CampsiteDetail from '../features/campsites/CampsiteDetail';
 import CommentsList from '../features/comments/CommentsList';
 import CommentsList2 from '../features/comments/CommentsList2';
-import SubHeader from '../components/SubHeader';
+import SubHeader2 from '../components/SubHeader2';
 import { useSelector } from 'react-redux';
 
 const CampsiteDetailPage = () => {
@@ -14,7 +14,7 @@ const CampsiteDetailPage = () => {
 
     return (
         <Container>
-            <SubHeader current={campsite.name} detail={true} />
+            <SubHeader2 current={campsite.name} detail={true} />
             <Row>
                 <CampsiteDetail campsite={campsite} />
                 <CommentsList2 campsiteId={campsiteId} />

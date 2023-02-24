@@ -9,7 +9,11 @@ const SubHeader = ({current,detail}) =>{
                     <BreadcrumbItem>
                         <Link to='/'>Home</Link>
                     </BreadcrumbItem>
-                      
+                        {detail && (
+                        <BreadcrumbItem>
+                            <Link to='/education'>Education</Link>
+                        </BreadcrumbItem>
+                    )}
                     <BreadcrumbItem active>{current}</BreadcrumbItem>
                 </Breadcrumb>
                 <h2>{current}</h2>
