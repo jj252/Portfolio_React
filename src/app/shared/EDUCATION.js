@@ -15,7 +15,7 @@ export const EDUCATION = [
         elevation: 1233,
         featured: false,
         description:
-            'Who Wants To Be a Millionaire Build with React JS'
+            'Back End SQL and Devops'
     },
     {
         id: 1,
@@ -24,7 +24,7 @@ export const EDUCATION = [
         elevation: 877,
         featured: false,
         description:
-            'Find The Imposter Build with Html/Css/Javascript'
+            'Back End SQL and Devops Honor'
     },
     {
         id: 2,
@@ -33,7 +33,7 @@ export const EDUCATION = [
         elevation: 2901,
         featured: false,
         description:
-            'Information Page build with Bootstrap and JQuery'
+            'Data Structure and Algorithms'
     },
     {
         id: 3,
@@ -42,7 +42,7 @@ export const EDUCATION = [
         elevation: 42,
         featured: true,
         description:
-            "Millionaire Python Cli Version"
+            "Front End and Mobile Development"
     },
     {
         id: 4,
@@ -51,7 +51,7 @@ export const EDUCATION = [
         elevation: 1233,
         featured: false,
         description:
-            'Who Wants To Be a Millionaire Build with React JS'
+            'SQL and Data Modelling'
     },
     {
         id: 5,
@@ -60,7 +60,7 @@ export const EDUCATION = [
         elevation: 877,
         featured: false,
         description:
-            'Find The Imposter Build with Html/Css/Javascript'
+            'Front End Web Development with React'
     },
     {
         id: 6,
@@ -69,7 +69,7 @@ export const EDUCATION = [
         elevation: 2901,
         featured: false,
         description:
-            'Information Page build with Bootstrap and JQuery'
+            'Cisco Certified Entry Networking Technician'
     },
     {
         id: 7,
@@ -78,6 +78,6 @@ export const EDUCATION = [
         elevation: 42,
         featured: true,
         description:
-            "Millionaire Python Cli Version"
+            "Cisco Certified Networking Associate Exploration"
     }
 ];
