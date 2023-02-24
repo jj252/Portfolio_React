@@ -19,6 +19,7 @@ import {Routes, Route} from  'react-router-dom';
 import ContactPage from './pages/ContactPage';
 import HomePage from './pages/HomePage';
 import CampsiteDetailPage from './pages/CampsiteDetailPage';
+import EducationDetailPage from './pages/EducationDetailPage';
 import AboutPage from './pages/AboutPage';
 
 
@@ -70,6 +71,10 @@ function App() {
               <Route 
                 path='/:campsiteId'
                 element={<CampsiteDetailPage />}
+              />
+              <Route 
+                path='education/:campsiteId'
+                element={<EducationDetailPage />}
               />
             </Routes>
             
