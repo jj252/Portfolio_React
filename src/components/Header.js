@@ -16,11 +16,10 @@ const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     
     return(
-    <Navbar dark color='primary' sticky='top' expand='md'>
+    <Navbar light color='primary' sticky='top' expand='md'>
     
          <NavbarBrand className='ms-5' href='/'>
-             <img src={NucampLogo} alt='nucamp logo' className="float-start" />
-             <h1 className='mt-1'>Nucamp</h1> 
+             <h1 className='mt-1'>Jeremy Jeremiah's Portfolio</h1> 
          </NavbarBrand>
          <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
          <Collapse isOpen={menuOpen} navbar>
@@ -29,22 +28,22 @@ const Header = () => {
             
                 <NavItem>
                     <NavLink className='nav-link' to='/'>
-                        <i className="fa fa-home fa-lg" /> Home
+                         Home
                     </NavLink>
                 </NavItem>
                 <NavItem>
                     <NavLink className='nav-link' to='/education'>
-                        <i className="fa fa-home fa-lg" /> Education
+                         Education
                     </NavLink>
                 </NavItem>
                 <NavItem>
                     <NavLink className='nav-link' to='/about'>
-                        <i className="fa fa-info fa-lg" /> About
+                         Skills
                     </NavLink>
                 </NavItem>
                 <NavItem>
                     <NavLink className='nav-link' to='/contact'>
-                        <i className="fa fa-address fa-lg" /> Contact
+                         Contact
                     </NavLink>
                 </NavItem>
                 <UserLoginForm />

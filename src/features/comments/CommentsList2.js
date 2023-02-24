@@ -1,6 +1,7 @@
 import { Col } from 'reactstrap';
 import Comment from './Comment';
 import { selectCommentsByCampsiteId } from './commentsSlice';
+import { selectEducationById } from '../campsites/educationSlice';
 import CommentForm from './CommentForm';
 import { useSelector } from 'react-redux';
 import {Routes, Route, NavLink} from  'react-router-dom';
@@ -8,7 +9,7 @@ import Website_info from '../../utils/Website_Info';
 
 const CommentsList = ({ campsiteId }) => {
     //console.log(campsiteId);
-    const comments = useSelector(selectCommentsByCampsiteId(campsiteId));
+    const comments = useSelector(selectEducationById(campsiteId));
 
     if (comments && comments.length > 0) {
         return (
