@@ -4,6 +4,7 @@ import { selectCommentsByCampsiteId } from './commentsSlice';
 import CommentForm from './CommentForm';
 import { useSelector } from 'react-redux';
 import {Routes, Route, NavLink} from  'react-router-dom';
+import Website_info from '../../utils/Website_Info';
 
 const CommentsList = ({ campsiteId }) => {
     //console.log(campsiteId);
@@ -17,11 +18,7 @@ const CommentsList = ({ campsiteId }) => {
                     return <Comment key={comment.id} comment={comment} />;
                 })}
                 <CommentForm campsiteId={campsiteId} />
-                <h1>Website Link</h1>
-                <a target="_blank" href="https://imaginative-donut-c608b3.netlify.app">Millionaire Game</a>
-                <h1>GitHub Link</h1>
-                <a target="_blank" href="https://github.com/jj252/react_project_millionaire.git">Git Hub Link</a>
-                <h1>Sample Code</h1>
+                <Website_info prop={campsiteId} />
             </Col>
         );
     }
