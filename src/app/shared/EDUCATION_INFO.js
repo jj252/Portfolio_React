@@ -3,15 +3,15 @@ export const EDUCATION_INFO = [
         id: 0,
         campsiteId: 0,
         rating: 5,
-        text: 'This was a really fun game enjoyed it!',
-        author: 'Simon Hogan',
-        date: '2023-10-25T15:30Z'
+        text: 'Learn data structures and algorithms to build robust applications with Python and SQL in 16 weeks. \n Use DevOps tools and deploy to the Amazon AWS, Microsoft Azure and Google clouds.',
+        author: 'Mark Thompson',
+        date: '2022-12-25T15:30Z'
     },
     {
         id: 6,
         campsiteId: 1,
         rating: 5,
-        text: 'Really Cool!',
+        text: 'Learn data structures and algorithms to build robust applications with Python and SQL in 16 weeks. \n Use DevOps tools and deploy to the Amazon AWS, Microsoft Azure and Google clouds. Complete your portfolio project and recieve the Honors Certificate',
         author: 'McKenzie Smith',
         date: '2023-02-18T13:12Z'
     },
@@ -19,7 +19,7 @@ export const EDUCATION_INFO = [
         id: 10,
         campsiteId: 2,
         rating: 5,
-        text: 'Love that gadget!',
+        text: 'Course Description Comming Soon',
         author: 'Mike the Snowman',
         date: '2022-02-18T22:12Z'
     },
@@ -28,7 +28,7 @@ export const EDUCATION_INFO = [
         id: 15,
         campsiteId: 3,
         rating: 4,
-        text: 'Love that it\'s on Python',
+        text: 'Course Description Comming Soon',
         author: 'Markell Rich',
         date: '2022-06-17T03:33Z'
     }
