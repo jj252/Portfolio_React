@@ -17,3 +17,13 @@
     background-color:darkblue;
 }
 
+@media screen and (max-width:800px){
+    .aboutPage{
+        position:absolute;
+        top: 310px;
+        left: 155px;
+        width: 55%;
+        opacity: 0.8;
+        animation: .4s rollout2;
+    }
+    }

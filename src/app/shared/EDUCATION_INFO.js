@@ -3,7 +3,7 @@ export const EDUCATION_INFO = [
         id: 0,
         campsiteId: 0,
         rating: 5,
-        text: 'Learn data structures and algorithms to build robust applications with Python and SQL in 16 weeks. \n Use DevOps tools and deploy to the Amazon AWS, Microsoft Azure and Google clouds.',
+        text: 'Learn data structures and algorithms to build robust applications with Python and SQL. \n Use DevOps tools and deploy to the Amazon AWS, Microsoft Azure and Google clouds.',
         author: 'Mark Thompson',
         date: '2022-12-25T15:30Z'
     },
@@ -11,7 +11,7 @@ export const EDUCATION_INFO = [
         id: 6,
         campsiteId: 1,
         rating: 5,
-        text: 'Learn data structures and algorithms to build robust applications with Python and SQL in 16 weeks. \n Use DevOps tools and deploy to the Amazon AWS, Microsoft Azure and Google clouds. Complete your portfolio project and recieve the Honors Certificate',
+        text: 'Learn data structures and algorithms to build robust applications with Python and SQL. \n Use DevOps tools and deploy to the Amazon AWS, Microsoft Azure and Google clouds. Complete your portfolio project and recieve the Honors Certificate',
         author: 'McKenzie Smith',
         date: '2023-02-18T13:12Z'
     },

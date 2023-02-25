@@ -2,33 +2,56 @@ import {Col,Row,Container,Card,CardBody,CardHeader} from 'reactstrap';
 import SubHeader from '../components/SubHeader';
 import PartnersList from '../features/partners/PartnersList';
 import {useSpring, animated} from 'react-spring';
+import style from '../app/shared/StudentList.module.css';
+import { useState } from 'react';
 
 
 const AboutPage = () => {
 
-    const animatedStyle = useSpring({
-        from: {
-            opacity:0,
-            transform: 'scale(1,0)',
-        },
-        to: {
-            opacity:1,
-            transform: 'scale(1,1)' 
-        }
-      });
+    const [width, setWidth] = useState(window.innerWidth);
+    const [height, setHeight] = useState(window.innerHeight);
 
-    return(
-        <Container style={animatedStyle}>
-            <SubHeader current='Skills'/>
-            
-            <Row className='row-content'>
-                <Col xs='12'>
-                    <h3>Skills</h3>
-                </Col>
-                <PartnersList />
-            </Row>
-        </Container>
+    console.log('WIDTH:',width,'HEIGHT',height);
+    
+      if (width < 800){
+        return(
+            <Container >
+                <SubHeader current='Skills'/>
+                
+                <Row >
+                    <Col xs='12'>
+                        <h3>Skills</h3>
+                        
+                    </Col>
+                    
+                    
+                    </Row> 
+                    <PartnersList />
+                
+            </Container>
     )
+        }
+        else if (width > 800){
+            return(
+                <Container >
+                    <SubHeader current='Skills'/>
+                    
+                    <Row >
+                        <Col xs='12'>
+                            <h3>Skills</h3>
+                            
+                        </Col>
+                        
+                        <PartnersList />
+                        </Row> 
+                        
+                    
+                </Container>
+        )
+        }
+
+    
 }
+
 
 export default AboutPage;

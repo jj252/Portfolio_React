@@ -17,7 +17,7 @@ const PartnersList = () => {
             {partners.map((partner)=>{
                 return(
                     
-                    <div className='d-flex mb-5 ' key={partner.id}>
+                    <div className='d-flex ' key={partner.id}>
                         <Partner partner={partner}/>
                     </div>
                 
@@ -28,7 +28,7 @@ const PartnersList = () => {
         {partners2.map((partner)=>{
             return(
                 
-                <div className='d-flex mb-5' key={partner.id}>
+                <div className='d-flex mb-5 ' key={partner.id}>
                     <Partner partner={partner}/>
                 </div>
             
@@ -39,7 +39,7 @@ const PartnersList = () => {
         {partners3.map((partner)=>{
             return(
                 
-                <div className='d-flex mb-5' key={partner.id}>
+                <div className='d-flex mb-5 ' key={partner.id}>
                     <Partner partner={partner}/>
                 </div>
             
@@ -50,7 +50,7 @@ const PartnersList = () => {
         {partners4.map((partner)=>{
             return(
                 
-                <div className='d-flex mb-5' key={partner.id}>
+                <div className='d-flex mb-5 col-xs-1' key={partner.id}>
                     <Partner partner={partner}/>
                 </div>
             
