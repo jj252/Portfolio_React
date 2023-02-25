@@ -64,6 +64,16 @@ export const EDUCATION_INFO = [
         author: 'Markell Rich',
         date: '2022-06-17T03:33Z'
     }
+    ,
+    
+    {
+        id: 7,
+        campsiteId: 7,
+        rating: 4,
+        text: 'CCNA Exploration is composed of four courses: Network Fundamentals, Routing Protocols and Concepts, LAN Switching and Wireless, and Accessing the WAN. Network Fundamentals is the first course and it has no prerequisites. It is a prerequisite for the other three courses.Routing Protocols and Concepts is the preferred second course in the sequence, but variations are possible. LAN Switching and Wireless can be taught before Routing Protocols and Concepts, or concurrently. Network Fundamentals, Routing Protocols and Concepts, and LAN Switching and Wireless are all prerequisites for Accessing the WAN. Explain the importance of data networks and the Internet in supporting business communications and everyday activities,Explain how communication works in data networks and the Internet,Recognize the devices and services that are used to support communications across an Internetwork,Use network protocol models to explain the layers of communications in data networks,Explain the role of protocols in data networks,Describe the importance of addressing and naming schemes at various layers of data networks,Describe the protocols and services provided by the Application layer in the OSI and TCP/IP models and describe how this layer operates in various networks,Analyze the operations and features of the Transport layer protocols and services,Analyze the operations and feature of the Network layer protocols and services and explain the fundamental concepts of routing,Design, calculate, and apply subnet masks and addresses to fulfill given requirements,Describe the operation of protocols at the OSI Data link layer and explain how they support communications,Explain the role of Physical layer protocols and services in supporting communications across data networks,Explain fundamental Ethernet concepts such as media, services, and operation,Employ basic cabling and network designs to connect devices in accordance with stated objective,Build a simple Ethernet network using routers and switches,Use Cisco command-line interface (CLI) commands to perform basic router and switch configuration and verification,Analyze the operations and features of common Application layer protocols such as HTTP, Domain Name System (DNS), Dynamic Host Configuration Protocol (DHCP), Simple Mail Transfer Protocol (SMTP), Telnet, and FTP,Utilize common network utilities to verify small network operations and analyze data traffic',
+        author: 'Markell Rich',
+        date: '2022-06-17T03:33Z'
+    }
    
    
 ];
