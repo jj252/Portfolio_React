@@ -46,6 +46,16 @@ const Website_info = (id) =>{
                     </>
                 )
                 }
+            else if (id.prop == 4){
+                console.log('im in');
+                return(
+                    <>
+                        <h1>GitHub Link</h1>
+                        <a target="_blank" href="https://github.com/jj252/Portfolio_React.git">Git Hub Link</a>
+                            
+                    </>
+                    )
+                    }
 }
 
 export default Website_info;

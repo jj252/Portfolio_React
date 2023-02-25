@@ -6,6 +6,7 @@ import millionaire from '../assets/img/million.png';
 import imposter from '../assets/img/imposter.jpg';
 import info_page from '../assets/img/info_page.jpg';
 import python_milly from '../assets/img/python_milly.jpg';
+import port_page from '../assets/img/port_page.jpg';
 
 export const CAMPSITES = [
     {
@@ -43,5 +44,15 @@ export const CAMPSITES = [
         featured: true,
         description:
             "Millionaire Python Cli Version"
+    }
+    ,
+    {
+        id: 4,
+        name: 'Portfolio Page',
+        image: port_page,
+        elevation: 42,
+        featured: true,
+        description:
+            "My Portfolio Page"
     }
 ];
