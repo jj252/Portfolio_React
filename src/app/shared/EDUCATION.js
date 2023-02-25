@@ -6,16 +6,19 @@ import edu_5 from '../assets/img/edu_pysql.jpg';
 import edu_6 from '../assets/img/edu_react.jpg';
 import edu_7 from '../assets/img/edu_ccent.jpg';
 import edu_8 from '../assets/img/edu_ccnaexp.jpg';
+import edu_9 from '../assets/img/edu_webdevfun.jpg';
+import edu_10 from '../assets/img/edu_reactnative.jpg';
+import edu_11 from '../assets/img/edu_devops.jpg';
 
 export const EDUCATION = [
     {
         id: 0,
-        name: 'Back End SQL and Devops',
-        image: edu_1,
+        name: 'HTML/CSS/JAVASCRIPT',
+        image: edu_9,
         elevation: 1233,
         featured: false,
         description:
-            'Back End SQL and Devops'
+            'Web Development Fundamentals with Html/Css/Javascript'
     },
     {
         id: 1,
@@ -37,8 +40,8 @@ export const EDUCATION = [
     },
     {
         id: 3,
-        name: 'Front End and Mobile Development',
-        image: edu_4,
+        name: 'React Native',
+        image: edu_10,
         elevation: 42,
         featured: true,
         description:
@@ -79,5 +82,15 @@ export const EDUCATION = [
         featured: true,
         description:
             "Cisco Certified Networking Associate Exploration"
+    }
+    ,
+    {
+        id: 8,
+        name: 'DevOps',
+        image: edu_11,
+        elevation: 42,
+        featured: true,
+        description:
+            "DevOps"
     }
 ];
