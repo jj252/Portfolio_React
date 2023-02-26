@@ -21,7 +21,7 @@ const Header = () => {
     
          <NavbarBrand className='ms-5' href='/'>
              
-             <h1 className='mt-1'>JJ's Port</h1> 
+             <h1 className='mt-1'>Jeremy Jeremiah Portfolio</h1> 
          </NavbarBrand>
          <NavbarToggler className={style.NavbarToggler} onClick={() => setMenuOpen(!menuOpen)} />
          <Collapse isOpen={menuOpen} navbar>

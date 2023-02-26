@@ -29,9 +29,9 @@ const Website_info = (id) =>{
             return(
                 <>
                     <h2>Website Link</h2>
-                    <a target="_blank" href="https://jade-sable-ab57ab.netlify.app/">Bootstrap and JQuery Project</a>
+                    <a target="_blank" href="https://stately-twilight-24f92d.netlify.app/">Bootstrap and JQuery Project</a>
                     <h1>GitHub Link</h1>
-                    <a target="_blank" href="https://github.com/jj252/bootstrap_project.git">Git Hub Link</a>
+                    <a target="_blank" href="https://github.com/jj252/bootstrap_project2.git">Git Hub Link</a>
                     
                 </>
             )
