@@ -12,13 +12,13 @@ import {
 import { NavLink } from "react-router-dom";
 import UserLoginForm from '../features/user/UserLoginForm';
 import style from '../app/shared/StudentList.module.css';
-
+import Videos from '../../src/utils/Videos';
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     
     return(
-    <Navbar color='info' sticky='top' expand='md'>
-    
+    <Navbar color='black' sticky='top' expand='md'>
+        <Videos />
          <NavbarBrand className='ms-5' href='/'>
              
              <h1 className='mt-1'>Jeremy Jeremiah Portfolio</h1> 
